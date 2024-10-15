@@ -24,4 +24,4 @@ def merge(left, right):
         j += 1
     return res
 a = [12, 2, 34, 5, 1, 45, 16, 2, 7, 4]
-print("Отсортированный массив: ", merge_sort(a))
+print("Отсортированный массив: ", merge_sort(a)) #Сложность алгоритма O(n*log(n))
